@@ -533,18 +533,13 @@ footer {
     }
     
     footer{
-      flex-direction: row;
+      flex-direction: column;
       
+     
     }
-    .boxEmail{
-      order:0;
+    .frameFooter{
+      width
     }
-    .logoFooter{
-      order:1;
-    }
-    
-
-    
     
     
     
