@@ -1,0 +1,551 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin:0;
+  list-style: none;
+}
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5% 11.5%;
+  width:inherit;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+.navHeader {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #242e52;
+  margin-left: 2rem;
+}
+.getStarted01 {
+  width: 7.5rem;
+  height: 2.5rem;
+  background: #f3603b;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 6.25rem;
+  font-weight: 500;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: #ffffff;
+  border: 0;
+}
+.burguerIcon{
+  display:none;
+}
+main {
+  flex-direction: column;
+  width: 100%;
+  padding-left: 11.5%;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  order: 0;
+}
+.home div #1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 90vw;
+  order: 0;
+  
+  
+}
+.home div h2 {
+  width: inherit;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3rem;
+  display: flex;
+  letter-spacing: -0.035em;
+  color: #232c50;
+  order: 0;
+}
+.home div p {
+  width: 25vw;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 157.1%;
+  display: flex;
+  color: #000000;
+  order: 2;
+  flex-grow: 1;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  
+}
+.home button {
+  order: 2;
+  
+}
+.home div #2 {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  order: 1;
+  padding:0;
+  
+  
+}
+.home div #2 img{
+  display: flex;
+  width:inherit;
+  height:inherit;
+  
+}
+.aboutUs {
+  width: inherit;
+  display: flex;
+  order: 1;
+  padding-top:11vh;
+}
+.aboutUs1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  margin-right:3rem;
+}
+.aboutUs h3 {
+  display: flex;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 114.6%;
+  color: #232851;
+  width: inherit;
+}
+.aboutUs #parrafo {
+  color: #000000;
+  padding-top: 3rem;
+  width: 80%;
+  line-height: 151.1%;
+}
+.aboutUs2 {
+  flex-direction: column;
+  width: 100%;
+  margin-right: 9rem;
+  align-items: flex-start;
+}
+.botonLista {
+  width: 69px;
+  height: 43px;
+  background: #f3603b;
+  border-radius: 30px;
+  margin: 0px 23px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  align-items: center;
+  color: #ffffff;
+  border: 0;
+}
+.aboutUstTitulosSec {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #323851;
+}
+.aboutUs2P {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 151.1%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #b3b2b7;
+  padding-top: 1rem;
+}
+.frameSub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  order: 1;
+  width: 90%;
+}
+#frame4 {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 35.5px;
+  width: 100%;
+}
+#frame5 {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 35.5px;
+}
+#frame6 {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: center;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+
+  height: 478px;
+  align-items: center;
+  margin-top: 15vh;
+  margin-bottom: 6vh;
+  order: 2;
+}
+.testimonials #tituloSection {
+  width:inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  display: flex;
+  letter-spacing: -0.01em;
+  color: #242e53;
+  order: 0;
+  margin-bottom: 6vh;;
+  
+}
+.testimonials .frame3 {
+  display: flex;
+  order: 1;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  margin-bottom: 45px;
+}
+.testimonialsCards {
+  width: 100%;
+  height: 254p;
+  align-items: center;
+  justify-content: center;
+  
+}
+.testimonialsCards h5{
+    display: flex;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 156.6%;
+    align-items:  center;
+}
+.testimonialsText{
+    font-weight: 600;
+    font-size: 0.8rem;
+    display: flex;
+    line-height: 156.6%;
+    text-align: center;
+    color: #B9B9C1;
+}
+#testimonialsButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+.testimonialsImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{display:none;}
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 2px;
+  height: 2px;
+  font-size: 5px;
+  border-radius: 100%;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+.frame9 {
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  width: 100vw;
+  background: #f3613c;
+  order: 3;
+}
+ #frame8 { 
+   height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: o;
+  margin: 64px 11.5%;
+}
+.frame9 #frame8 p {
+  height: fit-content;
+  width:50vw;
+  display: flex;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  align-items: left;
+  letter-spacing: -0.005rem;
+  color: #ffffff;
+  order: 0;
+  padding: 0;
+}
+.getStarted02 {
+  width: 7.5rem;
+  height: 2.5rem;
+  color: #f3603b;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 6.25rem;
+  font-weight: 500;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: #ffffff;
+  border: 0;
+}
+#botonFrame9{
+  display: flex;
+  order:1;
+}
+.frame9 #frame8 button {
+  order: 1;
+  align-items: center;
+}
+footer {
+  display: flex;
+  background: #1e1e26;
+  width: 100vw;
+  height: fit-content;
+  flex-direction: column;
+}
+ .frameFooter {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  padding: 3rem;
+}
+
+ #listaIconos {
+   margin-top:10rem;
+  display: flex;
+  width:fit-content;
+  flex-direction: row;
+  justify-content:center;
+  align-items: space-evenly;
+  padding:0;
+}
+#listaIconos li {
+    display:flex;
+    width: 3vw;
+}
+.boxNavegacion{
+  order:1;
+  width:100%;
+  flex-direction: row;
+  margin:0;
+}
+.frame12 {
+  display: flex;
+  flex-direction: column;
+  width: 13rem;
+  align-content: center;
+}
+.frame12 ul li {
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 12px;
+
+}
+
+.boxEmail{
+  display: flex;
+  height: fit-content;
+  order:2;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
+}
+
+.inputMail {
+  display: flex;
+  padding: 10px;
+}
+.inputMail #botonEmail {
+  width: 20vw;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 50px;
+  margin-right: 9px;
+  font-weight: 600;
+  font-size: 13.1806px;
+  line-height: 19px;
+  display: flex;
+  color: #a0a0a0;
+  border: 0;
+  order:0;
+}
+.inputMail button {
+  display: flex;
+  width: 4rem;
+  height: 42px;
+  background: #f3603b;
+  border-radius: 50px;
+  order: 1;
+  border: 0;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyrights {
+  display: flex;
+  font-size: 0.5em;
+  line-height: 18px;
+  color: #8c8c94;
+  align-items: flex-end;
+  justify-content: center;
+  height: fit-content;
+  order:1;
+  
+}
+@media(max-width: 480px){
+    *{
+        width:100%;
+          
+    }
+    .aboutUs #parrafo, .home div p{
+      color: #8c8c94;
+      text-align: center;
+    
+    }
+    .burguerIcon{
+      display: inline;
+      width:1.5rem;
+      justify-content: flex-end;
+      padding-right: 0.5rem;
+    }
+
+    main{
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      margin:0rem 1.5rem;
+      padding:0;
+    }
+    
+    .navHeader{
+        display:none;
+    }
+    header .getStarted01{
+      display:none;
+      
+    }
+    .home{ 
+        flex-direction: column-reverse;
+       
+    }
+    .home  div p{
+      width:80vw;
+    }
+    .home .getStarted01{
+      padding: 0;
+       margin:0;
+       align-items: center;
+       width:25vw;
+  
+      
+    }
+    .home div h2{
+
+      text-align: center;
+    
+      font-size: 2.5rem;
+
+    }
+    .aboutUs{
+        flex-direction: column; 
+        
+    }
+    .aboutUs1,.aboutUs h3 {
+    margin:0
+    }
+    
+    #frame4,#frame5, #frame6 {
+        flex-direction: column;
+        padding-bottom: 1rem;
+
+    }
+    .aboutUs2P{
+      width:100%;
+    }
+    div.aboutUs1{
+      margin-bottom: 20vh;
+    }
+
+    .testimonials #tituloSection{
+      font-size: 1.7rem;
+      padding-left:1.5rem;
+      
+    }
+    .testimonialsCards {
+      display:none;
+    }
+    
+    #testimonialsButton{
+      align-items: center;
+    }
+    
+    .frame9 #frame8 p{
+      padding: 0;
+      font-size: 2rem;
+  
+      padding-bottom:1rem;
+    }
+    #frame8 {
+      flex-direction: column;
+      width: 100%;
+    }
+    .frame9 #frame8 p{
+     width: 80vw;
+    }
+    
+    footer{
+      flex-direction: row;
+      
+    }
+    .boxEmail{
+      order:0;
+    }
+    .logoFooter{
+      order:1;
+    }
+    
+
+    
+    
+    
+    
+}
